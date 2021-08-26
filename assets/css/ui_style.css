@@ -1,0 +1,88 @@
+.d-flex{
+    display: flex;
+}.f-wrap{
+    flex-wrap: wrap;
+}
+
+.Fb-message-card{
+    /* width: auto; */
+    border: 1px solid #d0d1d5;
+    border-radius:3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .30);
+    padding: 20px ;
+    margin: 10px 0;
+}.Fb-message-card p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.facebook-card-image-text{
+    border: 1px solid #d0d1d5;
+    border-radius:3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .30);
+    padding: 20px ;
+    margin-top: -25px;
+}.facebook-card-label{
+    width: 100%;
+    position: relative;
+    bottom: -10px;
+    background-color: rgba(253, 253, 253, 0.63);
+}
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+    margin: 1em auto;
+    max-width: 1220px;
+}
+  
+.masonry-brick { /* Masonry bricks or child elements */
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+    .masonry {
+        column-count: 4;
+    }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media only screen and (max-width: 540px)  {
+    .masonry {
+        column-count: 1;
+    }
+}
+
+/* Icons */
+.fa-facebook-square{
+    color: white;
+    margin-top: 10px;
+}
+
+.swc-card-label-facebook{
+    position: relative;
+    bottom: -40px;
+    width: 100%;
+    float: right;
+    z-index: 99;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

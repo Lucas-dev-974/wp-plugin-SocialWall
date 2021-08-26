@@ -1,0 +1,28 @@
+#app_credentials{
+    width: 50%;
+    margin: 50px auto 0 auto ;
+}#app_credentials form .label-group label{
+    width: 100px;
+    display: inline-block;
+}
+
+#profile_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pages-section .pages{
+    display: block;
+    font-weight: 600;
+}
+
+.label-group{
+    display: block;
+}.label-group-inline{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.profile_picture{
+    align-self: center;
+}
